@@ -1,0 +1,226 @@
+body {
+  max-width: 1080px;
+  width: 100%;
+  margin: auto;
+  background: url("32329.600.png");
+  height: 100%;
+  color: #FFFDD0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 24px;
+  margin-bottom: 50px;
+}
+
+.menu-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 70px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: brown;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.main-text {
+  font-weight: 500;
+  font-size: 53px;
+  line-height: 20px;
+}
+
+.quote {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 0;
+  opacity: 0.7;
+}
+
+.button-order {
+  all: unset;
+  padding: 22px 55px;
+  background: brown;
+  border-radius: 5px;
+  color: #FFFDD0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+}
+
+.main {
+  max-width: 900px;
+}
+
+h1 {;
+ width: 40vw;
+ color: #FFFDD0;
+}
+@keyframes myAnim {
+    from {
+      margin-left: 0;
+    }
+    to {
+      margin-left: 400px;
+    }
+   }
+h1 {
+    animation: myAnim 5s linear alternate infinite;
+    background-color: brown;
+   }
+.card {
+    width: 470px;
+    height: 290px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid white;
+}
+.product,
+.description {
+ width: 100%; 
+ height: 100%; 
+ position: absolute;
+ text-align: center;
+ background-color: white;
+}
+.description a {
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #f5dde1;
+   }
+   .product,
+.description {
+ backface-visibility: hidden;
+}
+.description {
+    box-sizing: border-box;
+    padding: 40px;
+    transform: rotateY(
+      180deg
+    );
+}
+.product,
+.description {
+ transition: 1s;
+}
+.card:hover .product {
+    transform: rotateY(180deg);
+}
+.card:hover .description {
+    transform: rotateY(360deg);
+}
+.main-text1 {
+  font-weight: 500;
+  font-size: 53px;
+  line-height: 20px;
+  text-align: center;
+}
+footer {
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+}
+.card1 {
+    width: 470px;
+    height: 313px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #D77D31;
+}
+.product1,
+.description1 {
+ width: 100%; 
+ height: 100%; 
+ position: absolute;
+ text-align: center;
+ background-color: white;
+}
+.description1 a {
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #f5dde1;
+   }
+   .product1,
+.description1 {
+ backface-visibility: hidden;
+}
+.description1 {
+    box-sizing: border-box;
+    padding: 40px;
+    transform: rotateY(
+      180deg
+    );
+}
+.product1,
+.description1 {
+ transition: 1s;
+}
+.card1:hover .product1 {
+    transform: rotateY(180deg);
+}
+.card1:hover .description1 {
+    transform: rotateY(360deg);
+}
+.card2 {
+    width: 500px;
+    height: 334px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #D77D31;
+}
+.product2,
+.description2 {
+ width: 100%; 
+ height: 100%; 
+ position: absolute;
+ text-align: center;
+ background-color: white;
+}
+.description2 a {
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #f5dde1;
+   }
+   .product2,
+.description2 {
+ backface-visibility: hidden;
+}
+.description2 {
+    box-sizing: border-box;
+    padding: 40px;
+    transform: rotateY(
+      180deg
+    );
+}
+.product2,
+.description2 {
+ transition: 1s;
+}
+.card2:hover .product2 {
+    transform: rotateY(180deg);
+}
+.card2:hover .description2 {
+    transform: rotateY(360deg);
+}
